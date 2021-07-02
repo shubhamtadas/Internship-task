@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* h1{
+    font-weight: 900;
+    font-size: 60px;
+} */
+/* -------------------------- Navbar Section ---------------------------- */
+.navbar-brand{
+    color: rgb(235, 72, 235) !important;
+}
+.navbar{
+    opacity: 0.8;
+}
+
+/* -------------------------- Home Section ---------------------------- */
+
+#home .container-fluid{
+    background:url('bg1.jpg') no-repeat center center/cover;
+}
+#home .btn{
+    color: white;
+    background-color: rgb(204, 48, 142);
+    box-shadow: 1px 3px 4px 1px rgb(114, 106, 111); /* 4px is blur radius and 1px is spread radius*/
+}
+#home .btn:hover{
+    background-color:rgb(160, 17, 105) ;
+}
+/* #home img{
+    background: transparent;
+} */
+/* -------------------------- About Section ---------------------------- */
+#about .btn{
+    color: white;
+    background-color: rgb(204, 48, 142);
+    box-shadow: 1px 3px 4px 1px rgb(114, 106, 111); /* 4px is blur radius and 1px is spread radius*/
+  }
+  #about .btn:hover{
+    background-color: rgb(160, 17, 105);
+  }
+
+  /* -------------------------- Services Section ---------------------------- */
+
+#services .container-fluid{
+    background:url('bg1.jpg') no-repeat center center/cover;
+}
+#services img{
+    height: 50px;
+    width:50px;
+}
+#services .card{
+    border-radius: 15px;
+    box-shadow: 2px 3px 4px 1px rgb(126, 121, 121); /* 4px is blur radius and 1px is spread radius*/
+  }
+#services a{
+  font-weight: bold;
+  color: rgb(223, 27, 148);
+  text-decoration: none;
+}
+
+
+/* ------------------------- Contact Section------------------------------------------------ */
+#contact h5{
+    color: rgb(231, 7, 175);
+}
+#contact .btn{
+    border: none;
+    color: white;
+    background-color: rgb(204, 48, 142);
+    box-shadow: 1px 3px 4px 1px rgb(114, 106, 111); /* 4px is blur radius and 1px is spread radius*/
+    margin-left : 58px;
+}
+#contact .btn:hover{
+    background-color: rgb(160, 17, 105);
+}
+  
+  /* -------------------------- References Section ------------------------------------------- */
+#reference{
+    background-color: rgb(47, 54, 52);
+    color: white;
+}
+#reference h3{
+    color: rgb(221, 52, 221);
+}
+#reference .card{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+#reference a{
+    margin: 4px;
+    text-decoration: none;
+    color: white;
+}
+  
+  /*-------------------------------- Footer -----------------------------------------  */
+.logo img{
+    height: 28px;
+    width: 24px;
+}
+.logo{
+    float: right;
+}
+@media screen and (max-width: 430px) {
+    .logo img {
+        height: 18px;
+        width: 20px;
+    }
+    footer .foot{
+        font-size:15px;
+    }
+  }
